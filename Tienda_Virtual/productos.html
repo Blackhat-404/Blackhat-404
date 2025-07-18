@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Tienda Hombre</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tienda<span>Hombre</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="productos">
+            <h1>Nuestros Productos</h1>
+            <div class="productos-grid" id="productos-grid">
+                <!-- Productos de ejemplo se cargarán aquí con JS -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda Hombre. Todos los derechos reservados.</p>
+    </footer>
+    <div id="modal-resumen" class="modal-resumen" style="display:none;">
+        <div class="modal-contenido">
+            <span class="cerrar-modal" id="cerrar-modal">&times;</span>
+            <h2>Producto agregado al carrito</h2>
+            <div id="resumen-producto"></div>
+            <button id="continuar-comprando">Seguir comprando</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/productos.js"></script>
+</body>
+</html> 

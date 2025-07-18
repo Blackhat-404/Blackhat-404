@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Tienda Hombre</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Tienda<span>Hombre</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="carrito">
+            <h1>Tu Carrito</h1>
+            <div id="carrito-items">
+                <p>El carrito está vacío.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda Hombre. Todos los derechos reservados.</p>
+    </footer>
+    <div id="modal-eliminado" class="modal-resumen" style="display:none;">
+        <div class="modal-contenido">
+            <span class="cerrar-modal" id="cerrar-modal-eliminado">&times;</span>
+            <h2>Producto eliminado del carrito</h2>
+            <div id="resumen-eliminado"></div>
+            <button id="cerrar-eliminado">Cerrar</button>
+        </div>
+    </div>
+    <div id="modal-vaciar" class="modal-resumen" style="display:none;">
+        <div class="modal-contenido">
+            <span class="cerrar-modal" id="cerrar-modal-vaciar">&times;</span>
+            <h2>¿Vaciar carrito?</h2>
+            <p>¿Estás seguro de que deseas eliminar todos los productos del carrito?</p>
+            <div style="margin-top:20px;">
+                <button id="confirmar-vaciar" class="btn-modal btn-confirmar">Sí, vaciar</button>
+                <button id="cancelar-vaciar" class="btn-modal btn-cancelar">Cancelar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 
