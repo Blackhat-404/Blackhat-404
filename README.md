@@ -1,16 +1,81 @@
-## Hi there 👋
-
-<!--
-**Blackhat-404/Blackhat-404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuse Apparel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span>Fuse</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="carrito.html">Carrito</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <h1>Rebajas de Temporada</h1>
+                <p>Hasta <strong>40% OFF</strong> en prendas seleccionadas. ¡Viste con estilo este invierno!</p>
+                <a href="productos.html" class="btn">Explorar colección</a>
+            </div>
+        </section>
+        <section class="categorias">
+            <h2>Categorías Destacadas</h2>
+            <div class="categorias-grid">
+                <div class="categoria-card">
+                    <img src="images/camisas_categoria.png" alt="Camisas">
+                    <h3>Camisas</h3>
+                </div>
+                <div class="categoria-card">
+                    <img src="images/pantalones_categoria.jpg" alt="Pantalones">
+                    <h3>Pantalones</h3>
+                </div>
+                <div class="categoria-card">
+                    <img src="images/balzzers_categoria.jpeg" alt="Blazers">
+                    <h3>Blazers</h3>
+                </div>
+            </div>
+        </section>
+        <section class="mision">
+            <h2>Nuestra Misión</h2>
+            <p>En <strong>Tienda Hombre</strong> creemos que la elegancia y la comodidad pueden ir de la mano. Desde 2010, inspiramos a hombres modernos a expresar su estilo con prendas de alta calidad, atención al detalle y un servicio excepcional.</p>
+        </section>
+        <section class="testimonios">
+            <h2>Lo que opinan nuestros clientes</h2>
+            <div class="testimonios-grid">
+                <div class="testimonio">
+                    <p>“La mejor tienda online de ropa masculina. Calidad y atención de primera.”</p>
+                    <span>- Javier M.</span>
+                </div>
+                <div class="testimonio">
+                    <p>“Me encanta la variedad y los precios. ¡Siempre encuentro lo que busco!”</p>
+                    <span>- Ricardo S.</span>
+                </div>
+                <div class="testimonio">
+                    <p>“El blazer que compré superó mis expectativas. ¡Repetiré sin duda!”</p>
+                    <span>- Andrés L.</span>
+                </div>
+            </div>
+        </section>
+        <section class="cta-final">
+            <h2>¿Listo para renovar tu guardarropa?</h2>
+            <a href="productos.html" class="btn">Ver productos</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tienda Hombre. Todos los derechos reservados.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
